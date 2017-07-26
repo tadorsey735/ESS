@@ -1,7 +1,6 @@
-# ESS (Experior Sample Source)
 
-##
-## Program Overview
+# Experior Sample Source (ESS)
+
 This program is designed to simulate ARINC429 data reception and processing. Written for demonstrating test tool suite (geared towards DO-178 certification) we developed at Digital Flight.
 
 ##
