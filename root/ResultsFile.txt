@@ -1,0 +1,404 @@
+************************************************************************
+************************************************************************
+**                                                                    **
+**                       DFS Sample Program                           **
+**                          Results File                              **
+**                                                                    **
+************************************************************************
+************************************************************************
+
+Program is set to run for 10 Frames
+
+Input shape data is preset
+
+Cube Length Minimum Value: 10
+Cube Length Maximum Value: 1000
+
+Cube Height Minimum Value: 10
+Cube Height Maximum Value: 1000
+
+Cube Width Minimum Value: 10
+Cube Width Maximum Value: 1000
+
+Triangle Leg 1 Minimum Value: 10
+Triangle Leg 1 Maximum Value: 1000
+
+Triangle Leg 2 Minimum Value: 10
+Triangle Leg 2 Maximum Value: 1000
+
+========================================================================
+                             Frame 1
+========================================================================
+---------------------------------
+     Retrieve Data Results       
+---------------------------------
+One Retrieve Word Error:
+  - Retrieved Word 0x7000473A Contained a Parity Error
+
+Errors Occurred during Shape Data Extraction/Setting:
+  - No Data for Triangle Leg 1 (Retrieved Value Zero)
+  - Cube Height Expected Word Data Not Retrieved in Current Frame due to a Parity Error
+
+---------------------------------
+            Cube Data            
+---------------------------------
+Retrieved Cube Length: 266
+Retrieved Cube Height: 10 (Set with Default Value)
+Retrieved Cube Width:  159
+Calculated Cube Volume: 422940
+
+---------------------------------
+          Triangle Data          
+---------------------------------
+Retrieved Right Triangle Leg 1 Value: 10 (Set with Default Value)
+Retrieved Right Triangle Leg 2 Value: 41
+Calculated Triangle Area: 205.0000
+Calculated Triangle Hypotenuse: 42.2018957
+
+========================================================================
+                             Frame 2
+========================================================================
+---------------------------------
+     Retrieve Data Results       
+---------------------------------
+One Retrieve Word Error:
+  - Retrieved Word 0x8000473B Shape Label Not Recognized
+
+Errors Occurred during Shape Data Extraction/Setting:
+  - Cube Height Expected Word Data Not Retrieved in Current Frame
+
+---------------------------------
+            Cube Data            
+---------------------------------
+Retrieved Cube Length: 266
+Retrieved Cube Height: 10 (Set with Default Value)
+Retrieved Cube Width:  159
+Calculated Cube Volume: 422940
+
+---------------------------------
+          Triangle Data          
+---------------------------------
+Retrieved Right Triangle Leg 1 Value: 83
+Retrieved Right Triangle Leg 2 Value: 41
+Calculated Triangle Area: 1701.5000
+Calculated Triangle Hypotenuse: 92.5742945
+
+========================================================================
+                             Frame 3
+========================================================================
+---------------------------------
+     Retrieve Data Results       
+---------------------------------
+One Retrieve Word Error:
+  - Triangle Leg 2 Expected Word Data Retrieved Multiple Times in Current Frame
+
+Errors Occurred during Shape Data Extraction/Setting:
+  - Triangle Leg 1 Expected Word Data Not Retrieved in Current Frame
+
+---------------------------------
+            Cube Data            
+---------------------------------
+Retrieved Cube Length: 1000 (Value Limited)
+Retrieved Cube Height: 71
+Retrieved Cube Width:  159
+Calculated Cube Volume: 11289000
+
+---------------------------------
+          Triangle Data          
+---------------------------------
+Retrieved Right Triangle Leg 1 Value: 83 (Set with Previous Frame Value)
+Retrieved Right Triangle Leg 2 Value: 20 (Set with First Retrieved Value)
+Calculated Triangle Area: 830.0000
+Calculated Triangle Hypotenuse: 85.3756406
+
+========================================================================
+                             Frame 4
+========================================================================
+---------------------------------
+     Retrieve Data Results       
+---------------------------------
+All Retrieved Shape Data Words Recognized
+
+All Shape Data Values Successfully Extracted and Set
+
+---------------------------------
+            Cube Data            
+---------------------------------
+Retrieved Cube Length: 266
+Retrieved Cube Height: 71
+Retrieved Cube Width:  159
+Calculated Cube Volume: 3002874
+
+---------------------------------
+          Triangle Data          
+---------------------------------
+Retrieved Right Triangle Leg 1 Value: 83
+Retrieved Right Triangle Leg 2 Value: 41
+Calculated Triangle Area: 1701.5000
+Calculated Triangle Hypotenuse: 92.5742945
+
+========================================================================
+                             Frame 5
+========================================================================
+---------------------------------
+     Retrieve Data Results       
+---------------------------------
+All Retrieved Shape Data Words Recognized
+
+All Shape Data Values Successfully Extracted and Set
+
+---------------------------------
+            Cube Data            
+---------------------------------
+Retrieved Cube Length: 10 (Value Limited)
+Retrieved Cube Height: 10 (Value Limited)
+Retrieved Cube Width:  159
+Calculated Cube Volume: 15900
+
+---------------------------------
+          Triangle Data          
+---------------------------------
+Retrieved Right Triangle Leg 1 Value: 83
+Retrieved Right Triangle Leg 2 Value: 41
+Calculated Triangle Area: 1701.5000
+Calculated Triangle Hypotenuse: 92.5742945
+
+========================================================================
+                             Frame 6
+========================================================================
+---------------------------------
+     Retrieve Data Results       
+---------------------------------
+All Retrieved Shape Data Words Recognized
+
+All Shape Data Values Successfully Extracted and Set
+
+---------------------------------
+            Cube Data            
+---------------------------------
+Retrieved Cube Length: 266
+Retrieved Cube Height: 1000 (Value Limited)
+Retrieved Cube Width:  159
+Calculated Cube Volume: 42294000
+
+---------------------------------
+          Triangle Data          
+---------------------------------
+Retrieved Right Triangle Leg 1 Value: 83
+Retrieved Right Triangle Leg 2 Value: 41
+Calculated Triangle Area: 1701.5000
+Calculated Triangle Hypotenuse: 92.5742945
+
+========================================================================
+                             Frame 7
+========================================================================
+---------------------------------
+     Retrieve Data Results       
+---------------------------------
+One Retrieve Word Error:
+  - Retrieved Word 0x80009F5A Cube Subtype Not Recognized
+
+Errors Occurred during Shape Data Extraction/Setting:
+  - Cube Width Expected Word Data  Not Retrieved in Current Frame
+
+---------------------------------
+            Cube Data            
+---------------------------------
+Retrieved Cube Length: 266
+Retrieved Cube Height: 71
+Retrieved Cube Width:  159 (Set with Previous Frame Value)
+Calculated Cube Volume: 3002874
+
+---------------------------------
+          Triangle Data          
+---------------------------------
+Retrieved Right Triangle Leg 1 Value: 83
+Retrieved Right Triangle Leg 2 Value: 41
+Calculated Triangle Area: 1701.5000
+Calculated Triangle Hypotenuse: 92.5742945
+
+========================================================================
+                             Frame 8
+========================================================================
+---------------------------------
+     Retrieve Data Results       
+---------------------------------
+All Retrieved Shape Data Words Recognized
+
+Errors Occurred during Shape Data Extraction/Setting:
+  - No Data for Cube Width (Retrieved Value Zero)
+
+---------------------------------
+            Cube Data            
+---------------------------------
+Retrieved Cube Length: 266
+Retrieved Cube Height: 71
+Retrieved Cube Width:  159 (Set with Previous Frame Value)
+Calculated Cube Volume: 3002874
+
+---------------------------------
+          Triangle Data          
+---------------------------------
+Retrieved Right Triangle Leg 1 Value: 83
+Retrieved Right Triangle Leg 2 Value: 41
+Calculated Triangle Area: 1701.5000
+Calculated Triangle Hypotenuse: 92.5742945
+
+========================================================================
+                             Frame 9
+========================================================================
+---------------------------------
+     Retrieve Data Results       
+---------------------------------
+All Retrieved Shape Data Words Recognized
+
+Errors Occurred during Shape Data Extraction/Setting:
+  - No Data for Triangle Leg 1 (Retrieved Value Zero)
+  - No Data for Triangle Leg 2 (Retrieved Value Zero)
+  - No Data for Cube Length (Retrieved Value Zero)
+  - No Data for Cube Height (Retrieved Value Zero)
+  - No Data for Cube Width (Retrieved Value Zero)
+
+---------------------------------
+            Cube Data            
+---------------------------------
+Retrieved Cube Length: 266 (Set with Previous Frame Value)
+Retrieved Cube Height: 71 (Set with Previous Frame Value)
+Retrieved Cube Width:  159 (Set with Previous Frame Value)
+Calculated Cube Volume: 3002874
+
+---------------------------------
+          Triangle Data          
+---------------------------------
+Retrieved Right Triangle Leg 1 Value: 83 (Set with Previous Frame Value)
+Retrieved Right Triangle Leg 2 Value: 41 (Set with Previous Frame Value)
+Calculated Triangle Area: 1701.5000
+Calculated Triangle Hypotenuse: 92.5742945
+
+========================================================================
+                             Frame 10
+========================================================================
+---------------------------------
+     Retrieve Data Results       
+---------------------------------
+Multiple Retrieve Word Errors:
+  - Retrieved Word 0x80000000 Shape Label Not Recognized
+  - Retrieved Word 0x80000000 Shape Label Not Recognized
+  - Retrieved Word 0x80000000 Shape Label Not Recognized
+  - Retrieved Word 0x80000000 Shape Label Not Recognized
+  - Retrieved Word 0x80000000 Shape Label Not Recognized
+
+Errors Occurred during Shape Data Extraction/Setting:
+  - Triangle Leg 1 Expected Word Data Not Retrieved in Current Frame
+  - Triangle Leg 2 Expected Word Data Not Retrieved in Current Frame
+  - Cube Length Expected Word Data Not Retrieved in Current Frame
+  - Cube Height Expected Word Data Not Retrieved in Current Frame
+  - Cube Width Expected Word Data  Not Retrieved in Current Frame
+
+---------------------------------
+            Cube Data            
+---------------------------------
+Retrieved Cube Length: 266 (Set with Previous Frame Value)
+Retrieved Cube Height: 71 (Set with Previous Frame Value)
+Retrieved Cube Width:  159 (Set with Previous Frame Value)
+Calculated Cube Volume: 3002874
+
+---------------------------------
+          Triangle Data          
+---------------------------------
+Retrieved Right Triangle Leg 1 Value: 83 (Set with Previous Frame Value)
+Retrieved Right Triangle Leg 2 Value: 41 (Set with Previous Frame Value)
+Calculated Triangle Area: 1701.5000
+Calculated Triangle Hypotenuse: 92.5742945
+
+
+************************************************************************
+************************************************************************
+========================================================================
+                  Program Processing Completed                          
+========================================================================
+Program Ran For 10 Frames
+
+Average Triangle Area: 1464.7000000
+Average Triangle Hypotenuse: 86.8171892
+Average Cube Volume: 6945915.0000000
+
+
+************************************************************************
+************************************************************************
+========================================================================
+                      Retrieved Word Summary                            
+========================================================================
+
+========================================================================
+Retrieved Data:   Frame  1       Frame  2       Frame  3       Frame  4 
+========================================================================
+  Word 1 Value:  0x80000008     0x80005308     0x80001418     0x80005308
+  Word 2 Value:  0x80002918     0x80002918     0x80002918     0x80002918
+  Word 3 Value:  0x80010A2A     0x80010A2A     0x80F0FF2A     0x80010A2A
+  Word 4 Value:  0x7000473A     0x8000473B     0x8000473A     0x8000473A
+  Word 5 Value:  0x80009F4A     0x80009F4A     0x80009F4A     0x80009F4A
+========================================================================
+
+========================================================================
+Retrieved Data:   Frame  5       Frame  6       Frame  7       Frame  8 
+========================================================================
+  Word 1 Value:  0x80005308     0x80005308     0x80005308     0x80005308
+  Word 2 Value:  0x80002918     0x80002918     0x80002918     0x80002918
+  Word 3 Value:  0x8000012A     0x80010A2A     0x80010A2A     0x80010A2A
+  Word 4 Value:  0x8000033A     0x80FFFF3A     0x8000473A     0x8000473A
+  Word 5 Value:  0x80009F4A     0x80009F4A     0x80009F5A     0x8000004A
+========================================================================
+
+==========================================
+Retrieved Data:   Frame  9       Frame 10 
+==========================================
+  Word 1 Value:  0x80000008     0x80000000
+  Word 2 Value:  0x80000018     0x80000000
+  Word 3 Value:  0x8000002A     0x80000000
+  Word 4 Value:  0x8000003A     0x80000000
+  Word 5 Value:  0x8000004A     0x80000000
+==========================================
+
+************************************************************************
+************************************************************************
+========================================================================
+                       Total Error Summary                              
+========================================================================
+
+18 Retrieve Errors Processed:
+   1) Frame 01:  Retrieved Word 0x7000473A Contained a Parity Error
+   2) Frame 01:  Cube Height Data not set during retrieve word processing
+   3) Frame 02:  Retrieved Word 0x8000473B Shape Label Not Recognized
+   4) Frame 02:  Cube Height Data not set during retrieve word processing
+   5) Frame 03:  Multiple Words Retrieved for Triangle Leg 2 Data
+   6) Frame 03:  Triangle Leg 1 Data not set during retrieve word processing
+   7) Frame 07:  Retrieved Word 0x80009F5A Cube Subtype Not Recognized
+   8) Frame 07:  Cube Width Data not set during retrieve word processing
+   9) Frame 10:  Retrieved Word 0x80000000 Shape Label Not Recognized
+  10) Frame 10:  Retrieved Word 0x80000000 Shape Label Not Recognized
+  11) Frame 10:  Retrieved Word 0x80000000 Shape Label Not Recognized
+  12) Frame 10:  Retrieved Word 0x80000000 Shape Label Not Recognized
+  13) Frame 10:  Retrieved Word 0x80000000 Shape Label Not Recognized
+  14) Frame 10:  Triangle Leg 1 Data not set during retrieve word processing
+  15) Frame 10:  Triangle Leg 2 Data not set during retrieve word processing
+  16) Frame 10:  Cube Length Data not set during retrieve word processing
+  17) Frame 10:  Cube Height Data not set during retrieve word processing
+  18) Frame 10:  Cube Width Data not set during retrieve word processing
+
+12 Calculation Errors Processed:
+   1) Frame 01:  Triangle Leg 1 Data set with default value 
+   2) Frame 01:  Cube Height Data set with default value 
+   3) Frame 03:  Cube Length Data limited to maximum value as retrieved value was 61695
+   4) Frame 05:  Cube Length Data limited to minimum value as retrieved value was 1
+   5) Frame 05:  Cube Height Data limited to minimum value as retrieved value was 3
+   6) Frame 06:  Cube Height Data limited to maximum value as retrieved value was 65535
+   7) Frame 08:  Cube Width Data was zero, previous frame value used for calculation
+   8) Frame 09:  Triangle Leg 1 Data was zero, previous frame value used for calculation
+   9) Frame 09:  Triangle Leg 2 Data was zero, previous frame value used for calculation
+  10) Frame 09:  Cube Length Data was zero, previous frame value used for calculation
+  11) Frame 09:  Cube Height Data was zero, previous frame value used for calculation
+  12) Frame 09:  Cube Width Data was zero, previous frame value used for calculation
+
+************************************************************************
+************************************************************************
