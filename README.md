@@ -1,7 +1,7 @@
 
 # Experior Sample Source (ESS)
 
-This program is designed to simulate ARINC429 data reception and processing..
+This program is designed to simulate ARINC429 data reception and processing.
 
 
 ## Simulating Data Reception
